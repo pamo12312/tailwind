@@ -74,7 +74,7 @@ export default function Home() {
                         className={"w-96 flex-row justify-between flex border-solid border-2 bg-blacck border-blacck rounded-3xl p-4  shadow-md "}>
                         <div>
                             <div className={" m-2 text-bimage text-2xl"}>Sídlo</div>
-                            <div className={" m-2 text-3xl"}>Praue,CZ</div>
+                            <div className={" m-2 text-3xl"}>Prague,CZ</div>
                         </div>
                         <Image alt={"g"} src="/worldww.png" width={70} height={50}/>
 
