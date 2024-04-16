@@ -612,6 +612,7 @@ export default function Home() {
                         src="/coffee.png" width={30} height={60}/>Buy me a coffee
                 </div>
 
+
             </div>
             <div
                 className={" p-2 bg-black  text-white rounded-xl w-40 pl-1 flex fixed bottom-4 right-6 shadow-md"}>
