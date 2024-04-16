@@ -109,7 +109,7 @@ export default function Home() {
                 </div>
                 <div className={" w-80 pl-10"}>
                     <div className={"text-white text-2xl pb-2"}>Patrik Moravec</div>
-                    <div className={"text-ctext text-lg"}>I'm Wei Chen, a passionate and experienced product designer,
+                    <div className={"text-ctext text-lg"}>Im Wei Chen, a passionate and experienced product designer,
                         coffee lover, art enthusiast based in Manhattan, NY. With over 7 years of expertise in the
                         field, I have dedicated myself to creating exceptional user experiences that blend functionality
                         and aesthetics seamlessly.
@@ -213,7 +213,7 @@ export default function Home() {
             <div className={"flex justify-center flex-wrap gap-20"}>
                 <div
                     className={" bg-blacck felx-wrap p-5 flex-col justify-between flex border-solid border-2 border-bimage rounded-3xl shadow-md"}>
-                    <div className={"text-white w-96 text-2xl"}>Wei Chen's design prowess is unmatched. His attention to
+                    <div className={"text-white w-96 text-2xl"}>Wei Chens design prowess is unmatched. His attention to
                         detail and innovative approach have transformed our products into sleek, user-centric
                         experiences.
                     </div>
@@ -262,8 +262,8 @@ export default function Home() {
                 </div>
                 <div
                     className={" bg-blacck felx-wrap p-5 flex-col justify-between flex border-solid border-2  border-bimage rounded-3xl shadow-md"}>
-                    <div className={"text-white w-96 text-2xl"}>Wei Chen's expertise as a product designer shines
-                        through in every project. His designs seamlessly integrate with the user's journey for sure.
+                    <div className={"text-white w-96 text-2xl"}>Wei Chens expertise as a product designer shines
+                        through in every project. His designs seamlessly integrate with the users journey for sure.
                     </div>
                     <div className={"flex items-center"}>
                         <Image alt={"g"} src="/matthew.png" width={70} height={50}/>
@@ -557,7 +557,7 @@ export default function Home() {
 
                     <div
                         className={" h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex "}>
-                        <div>What is Wei Chen's design process?</div>
+                        <div>What is Wei Chens design process?</div>
                         <Image alt={"g"} src="/player.png" width={30} height={50}/>
 
                     </div>
@@ -569,7 +569,7 @@ export default function Home() {
                     </div>
                     <div
                         className={"h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex "}>
-                        <div>What is Wei Chen's pricing structure?</div>
+                        <div>What is Wei Chens pricing structure?</div>
                         <Image alt={"g"} src="/player.png" width={30} height={50}/>
 
                     </div>
