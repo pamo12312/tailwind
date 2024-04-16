@@ -26,9 +26,9 @@ export default function Home() {
                         className={" w-96 flex border-solid border-2 border-blacck rounded-3xl p-5 shadow-md flex-col bg-blacck "}>
                         <div className={"items-center flex justify-between"}>
 
-                            <div><Image className={"bg-bimage rounded-full"} src="/foto.png" width={70} height={70}/>
+                            <div><Image alt={"g"} className={"bg-bimage rounded-full"} src="/foto.png" width={70} height={70}/>
                             </div>
-                            <div><Image src="/arrow.png" width={50} height={50}/></div>
+                            <div><Image alt={"g"} src="/arrow.png" width={50} height={50}/></div>
                         </div>
 
                         <div className={"font-Inter, sans-serif text-white  text-5xl my-5"}>A Portfolio Brimming with
@@ -41,42 +41,42 @@ export default function Home() {
                 </div>
                 <div className={"w-96 flex border-solid    rounded-3xl flex-col p-2 shadow-md"}>
                     <div
-                        className={"w-96 flex-row justify-between flex border-solid border-2 bg-blacck border-blacck rounded-3xl p-4 p-2 shadow-md "}>
+                        className={"w-96 flex-row justify-between flex border-solid border-2 bg-blacck border-blacck rounded-3xl p-4  shadow-md "}>
                         <div>
                             <div className={" m-2 text-bimage text-2xl"}>Title</div>
                             <div className={" m-2 text-3xl"}>product Designer</div>
                         </div>
-                        <Image src="/star.png" width={70} height={20}/>
+                        <Image alt={"g"} src="/star.png" width={70} height={20}/>
 
 
                     </div>
                     <div className={"flex flex-row w-96 "}>
                         <div
                             className={" bg-blacck border-solid border-2 border-blacck rounded-3xl p-4 m-2 shadow-md"}>
-                            <Image src="/twitter.png" width={50} height={60}/>
+                            <Image alt={"g"} src="/twitter.png" width={50} height={60}/>
                         </div>
                         <div
                             className={" bg-blacck border-solid border-2 border-blacck rounded-3xl p-4 m-2 shadow-md"}>
-                            <Image src="/instagram.png" width={50} height={50}/>
+                            <Image alt={"g"} src="/instagram.png" width={50} height={50}/>
                         </div>
                         <div
                             className={" bg-blacck border-solid border-2 border-blacck rounded-3xl p-4 m-2 shadow-md"}>
-                            <Image src="/www.png" width={50} height={50}/>
+                            <Image alt={"g"} src="/www.png" width={50} height={50}/>
                         </div>
                         <div
                             className={" bg-blacck border-solid border-2 border-blacck rounded-3xl p-4 m-2 shadow-md"}>
-                            <Image src="/be.png" width={50} height={50}/>
+                            <Image alt={"g"} src="/be.png" width={50} height={50}/>
                         </div>
 
                     </div>
 
                     <div
-                        className={"w-96 flex-row justify-between flex border-solid border-2 bg-blacck border-blacck rounded-3xl p-4 p-2 shadow-md "}>
+                        className={"w-96 flex-row justify-between flex border-solid border-2 bg-blacck border-blacck rounded-3xl p-4  shadow-md "}>
                         <div>
                             <div className={" m-2 text-bimage text-2xl"}>Sídlo</div>
                             <div className={" m-2 text-3xl"}>Praue,CZ</div>
                         </div>
-                        <Image src="/worldww.png" width={70} height={50}/>
+                        <Image alt={"g"} src="/worldww.png" width={70} height={50}/>
 
 
                     </div>
@@ -85,7 +85,7 @@ export default function Home() {
 
                 <div
                     className={" w-96 flex gap-10 items-center justify-center flex-col border-solid border-2 bg-blacck border-blacck rounded-3xl p-2 shadow-md"}>
-                    <div><Image src="/socialr.png" width={60} height={60}/></div>
+                    <div><Image alt={"g"} src="/socialr.png" width={60} height={60}/></div>
                     <div className={"text-4xl flex text-center"}>Chcete spolupracovat ?</div>
                     <div className={" text-2xl rounded-full bg-bbutton p-4"}>patri.moravec@email.cz</div>
 
@@ -93,7 +93,7 @@ export default function Home() {
 
 
             </div>
-            <div className={"text-white flex justify-center"}><Image className={"pt-8"} src="/circlestar.png"
+            <div className={"text-white flex justify-center"}><Image alt={"g"} className={"pt-8"} src="/circlestar.png"
                                                                      width={105} height={56}/></div>
             <div className={"text-bimage flex justify-center text-xl"}>O mně sekce</div>
             <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Kdo je kreativní
@@ -103,7 +103,7 @@ export default function Home() {
 
             <div className={"flex justify-center"}>
                 <div className={"w-80 rounded-2xl bg-blacck text-center text-textpimg font-Caveat py-5"}>
-                    <div className={"px-5"}><Image className={"bg-bblack rounded-2xl pl-10 pr-10"} src="/emoji.png"
+                    <div className={"px-5"}><Image alt={"g"} className={"bg-bblack rounded-2xl pl-10 pr-10"} src="/emoji.png"
                                                    width={300} height={100}/></div>
                     <div className={"pt-2 text-xl"}>Odvaha redefinovat hranice :)</div>
                 </div>
@@ -119,7 +119,7 @@ export default function Home() {
 
 
             </div>
-            <div className={" mt-10 text-white flex justify-center"}><Image className={"pt-8"} src="/brickimg.png"
+            <div className={" mt-10 text-white flex justify-center"}><Image alt={"g"} className={"pt-8"} src="/brickimg.png"
                                                                             width={80} height={56}/></div>
             <div className={"text-bimage flex justify-center text-xl"}>Portfolio Sekce</div>
             <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Ukázka Produktového
@@ -134,10 +134,10 @@ export default function Home() {
                             <div className={"text-white m-2 text-2xl"}>Haze Template</div>
                             <div className={"text-ctext m-2 text-lg"}>SaaS Template for Haze</div>
                         </div>
-                        <Image src="/arrow.png" width={70} height={50}/>
+                        <Image alt={"g"} src="/arrow.png" width={70} height={50}/>
                     </div>
                     <div className={"flex justify-center text-white"}>
-                        <div className={"m-2"}><Image className={"rounded-2xl"} src="/haze.png" width={500}
+                        <div className={"m-2"}><Image alt={"g"} className={"rounded-2xl"} src="/haze.png" width={500}
                                                       height={60}/></div>
 
                     </div>
@@ -145,47 +145,47 @@ export default function Home() {
 
 
                 <div
-                    className={" bg-blacck max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl p-4 p-2 shadow-md"}>
+                    className={" bg-blacck max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl  shadow-md"}>
                     <div className={"flex justify-between items-center"}>
                         <div>
                             <div className={"text-white m-2 text-2xl"}>Members Template</div>
                             <div className={"text-ctext m-2 text-lg"}>Landing Page for Members</div>
                         </div>
-                        <Image src="/arrow.png" width={70} height={50}/>
+                        <Image alt={"g"} src="/arrow.png" width={70} height={50}/>
                     </div>
                     <div className={"flex justify-center text-white"}>
-                        <div className={"m-2"}><Image className={"rounded-2xl"} src="/member.png" width={500}
+                        <div className={"m-2"}><Image alt={"g"} className={"rounded-2xl"} src="/member.png" width={500}
                                                       height={60}/></div>
 
                     </div>
                 </div>
 
                 <div
-                    className={" bg-blacck max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl p-4 p-2 shadow-md"}>
+                    className={" bg-blacck max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl  shadow-md"}>
                     <div className={"flex justify-between items-center"}>
                         <div>
                             <div className={"text-white m-2 text-2xl"}>Talentswide HR</div>
                             <div className={"text-ctext m-2 text-lg"}>HR Website for Talentswide</div>
                         </div>
-                        <Image src="/arrow.png" width={70} height={50}/>
+                        <Image alt={"g"} src="/arrow.png" width={70} height={50}/>
                     </div>
                     <div className={"flex justify-center text-white"}>
-                        <div className={"m-2"}><Image className={"rounded-2xl"} src="/talenthr.png" width={500}
+                        <div className={"m-2"}><Image alt={"g"} className={"rounded-2xl"} src="/talenthr.png" width={500}
                                                       height={60}/></div>
 
                     </div>
                 </div>
                 <div
-                    className={" bg-blacck max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl p-4 p-2 shadow-md"}>
+                    className={" bg-blacck max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl  shadow-md"}>
                     <div className={"flex justify-between items-center"}>
                         <div>
                             <div className={"text-white m-2 text-2xl"}>Moxa Template</div>
                             <div className={"text-ctext m-2 text-lg"}>portfolio Design for Moxa</div>
                         </div>
-                        <Image src="/arrow.png" width={70} height={50}/>
+                        <Image alt={"g"} src="/arrow.png" width={70} height={50}/>
                     </div>
                     <div className={"flex justify-center text-white"}>
-                        <div className={"m-2"}><Image className={"rounded-2xl"} src="/moxa.png" width={500}
+                        <div className={"m-2"}><Image alt={"g"} className={"rounded-2xl"} src="/moxa.png" width={500}
                                                       height={60}/></div>
 
                     </div>
@@ -201,7 +201,7 @@ export default function Home() {
             <div className={"flex justify-center mt-20"}>
                 <div className={"flex flex-col justify-center items-center"}>
                     <div>
-                        <Image src="/circle.png" width={50}
+                        <Image alt={"g"} src="/circle.png" width={50}
                                height={60}/>
                     </div>
                     <div className={"text-ctext"}>TESTIMONIALS SECTION</div>
@@ -218,7 +218,7 @@ export default function Home() {
                         experiences.
                     </div>
                     <div className={"flex items-center"}>
-                        <Image src="/laura.png" width={70} height={50}/>
+                        <Image alt={"g"} src="/laura.png" width={70} height={50}/>
                         <div>
                             <div className={"text-white m-2 text-2xl"}>Laura perez</div>
                             <div className={"text-ctext m-2 text-lg"}>Fashion Designer Phoenix</div>
@@ -235,7 +235,7 @@ export default function Home() {
                         to translate complex ideas into intuitive interfaces has elevated our products to new heights.
                     </div>
                     <div className={"flex items-center"}>
-                        <Image src="/katarzyna.png" width={70} height={50}/>
+                        <Image alt={"g"} src="/katarzyna.png" width={70} height={50}/>
                         <div>
                             <div className={"text-white m-2 text-2xl"}>Katarzyna Nowak</div>
                             <div className={"text-ctext m-2 text-lg"}>UX Designer Aurora</div>
@@ -251,7 +251,7 @@ export default function Home() {
                         designs strike the perfect balance between functionality and aesthetics, impressing our clients.
                     </div>
                     <div className={"flex items-center"}>
-                        <Image src="/arthur.png" width={70} height={50}/>
+                        <Image alt={"g"} src="/arthur.png" width={70} height={50}/>
                         <div>
                             <div className={"text-white m-2 text-2xl"}>Arthur Gauthier</div>
                             <div className={"text-ctext m-2 text-lg"}>Fashion Designer Phoenix</div>
@@ -266,7 +266,7 @@ export default function Home() {
                         through in every project. His designs seamlessly integrate with the user's journey for sure.
                     </div>
                     <div className={"flex items-center"}>
-                        <Image src="/matthew.png" width={70} height={50}/>
+                        <Image alt={"g"} src="/matthew.png" width={70} height={50}/>
                         <div>
                             <div className={"text-white m-2 text-2xl"}>Matthew Johnson</div>
                             <div className={"text-ctext m-2 text-lg"}>Data Software Engineering Stripe</div>
@@ -279,9 +279,9 @@ export default function Home() {
             <div className={"flex justify-center mt-20 text-white"}>
                 <div
                     className={" w-4/5 flex items-center justify-center flex-col border-solid border-2 bg-black border-blacck rounded-3xl shadow-md"}>
-                    <div className={"p-2 mt-10"}><Image src="/socialr.png" width={60} height={60}/></div>
+                    <div className={"p-2 mt-10"}><Image alt={"g"} src="/socialr.png" width={60} height={60}/></div>
                     <div className={"p-2 mt-10 mb-10 text-4xl flex text-center"}>Chcete spolupracovat ?</div>
-                    <div className={"p-2 mb-10 text-2xl rounded-full bg-bbutton p-4"}>patri.moravec@email.cz</div>
+                    <div className={" mb-10 text-2xl rounded-full bg-bbutton p-4"}>patri.moravec@email.cz</div>
                     <div
                         className={"bg-blacck w-full border-4 border-blacck rounded-b-2xl flex justify-center text-ctext"}>
                         SLIBUJI VÁM, ŽE ODPOVÍM DO 24 HODIN.
@@ -291,7 +291,7 @@ export default function Home() {
             </div>
 
 
-            <div className={" mt-10 text-white flex justify-center"}><Image className={"pt-8"} src="/brickimg.png"
+            <div className={" mt-10 text-white flex justify-center"}><Image alt={"g"} className={"pt-8"} src="/brickimg.png"
                                                                             width={80} height={56}/></div>
             <div className={"text-bimage flex justify-center text-xl"}>Skill Sekce</div>
             <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Dovendosti &
@@ -302,7 +302,7 @@ export default function Home() {
             <div className={"flex flex-wrap justify-center  gap-20"}>
 
                 <div className={" rounded-2xl w-auto flex items-center border p-10"}>
-                    <Image src="/matthew.png" width={70} height={50}/>
+                    <Image alt={"g"} src="/matthew.png" width={70} height={50}/>
                     <div>
                         <div className={"text-white m-2 text-2xl"}>Problem Solving</div>
                         <div className={"w-96 text-ctext m-2 text-lg"}>Innovative problem-solving and impactful
@@ -314,7 +314,7 @@ export default function Home() {
 
                 </div>
                 <div className={" rounded-2xl flex w-auto items-center border p-10 "}>
-                    <Image src="/matthew.png" width={70} height={50}/>
+                    <Image alt={"g"} src="/matthew.png" width={70} height={50}/>
                     <div>
                         <div className={"text-white m-2 text-2xl"}>Problem Solving</div>
                         <div className={" w-96 text-ctext m-2 text-lg"}>Innovative problem-solving and impactful
@@ -326,7 +326,7 @@ export default function Home() {
                 </div>
 
                 <div className={" rounded-2xl flex w-auto items-center border p-10 "}>
-                    <Image src="/matthew.png" width={70} height={50}/>
+                    <Image alt={"g"} src="/matthew.png" width={70} height={50}/>
                     <div>
                         <div className={"text-white m-2 text-2xl"}>Problem Solving</div>
                         <div className={" w-96 text-ctext m-2 text-lg"}>Innovative problem-solving and impactful
@@ -338,7 +338,7 @@ export default function Home() {
 
                 </div>
                 <div className={" rounded-2xl flex w-auto items-center border p-10 "}>
-                    <Image src="/matthew.png" width={70} height={50}/>
+                    <Image alt={"g"} src="/matthew.png" width={70} height={50}/>
                     <div>
                         <div className={"text-white m-2 text-2xl"}>Problem Solving</div>
                         <div className={" w-96 text-ctext m-2 text-lg"}>Innovative problem-solving and impactful
@@ -353,7 +353,7 @@ export default function Home() {
             </div>
 
 
-            <div className={" mt-10 text-white flex justify-center"}><Image className={"pt-8"} src="/brickimg.png"
+            <div className={" mt-10 text-white flex justify-center"}><Image alt={"g"} className={"pt-8"} src="/brickimg.png"
                                                                             width={80} height={56}/></div>
             <div className={"text-bimage flex justify-center text-xl"}>Tool Sekce</div>
             <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Nástroje &
@@ -372,7 +372,7 @@ export default function Home() {
                         <div className={"flex flex-row"}>
                             <div>
                                 <div className={" text-6xl flex justify-center text-bimage"}>.</div>
-                                <div><Image className={"bg-blacck rounded-2xl"} src="/photoshop.png" width={70}
+                                <div><Image alt={"g"} className={"bg-blacck rounded-2xl"} src="/photoshop.png" width={70}
                                             height={50}/></div>
                             </div>
 
@@ -380,7 +380,7 @@ export default function Home() {
                         <div className={"flex flex-row"}>
                             <div>
                                 <div className={" text-6xl flex justify-center text-bimage"}>.</div>
-                                <div><Image className={"bg-blacck rounded-2xl"} src="/figma.png" width={70}
+                                <div><Image alt={"g"} className={"bg-blacck rounded-2xl"} src="/figma.png" width={70}
                                             height={50}/></div>
                             </div>
 
@@ -388,7 +388,7 @@ export default function Home() {
                         <div className={"flex flex-row"}>
                             <div>
                                 <div className={" text-6xl flex justify-center text-bimage"}>.</div>
-                                <div><Image className={"bg-blacck rounded-2xl"} src="/framer.png" width={70}
+                                <div><Image alt={"g"} className={"bg-blacck rounded-2xl"} src="/framer.png" width={70}
                                             height={50}/></div>
                             </div>
 
@@ -396,7 +396,7 @@ export default function Home() {
                         <div className={"flex flex-row"}>
                             <div>
                                 <div className={" text-6xl flex justify-center text-bimage"}>.</div>
-                                <div><Image className={"bg-blacck rounded-2xl"} src="/slack.png" width={70}
+                                <div><Image alt={"g"} className={"bg-blacck rounded-2xl"} src="/slack.png" width={70}
                                             height={50}/></div>
                             </div>
 
@@ -404,7 +404,7 @@ export default function Home() {
                         <div className={"flex flex-row"}>
                             <div>
                                 <div className={" text-6xl flex justify-center text-bimage"}>.</div>
-                                <div><Image className={"bg-blacck rounded-2xl"} src="/webflow.png" width={70}
+                                <div><Image alt={"g"} className={"bg-blacck rounded-2xl"} src="/webflow.png" width={70}
                                             height={50}/></div>
                             </div>
 
@@ -412,7 +412,7 @@ export default function Home() {
                         <div className={"flex flex-row"}>
                             <div>
                                 <div className={" text-6xl flex justify-center text-bimage"}>.</div>
-                                <div><Image className={"bg-blacck rounded-2xl"} src="/adobeilustrator.png" width={70}
+                                <div><Image alt={"g"} className={"bg-blacck rounded-2xl"} src="/adobeilustrator.png" width={70}
                                             height={50}/></div>
                             </div>
 
@@ -428,7 +428,7 @@ export default function Home() {
             </div>
 
             <div className={"flex justify-center mt-20"}>
-                <Image src="/educircle.png" width={70}
+                <Image alt={"g"} src="/educircle.png" width={70}
                        height={50}/>
             </div>
             <div className={" mt-5 flex justify-center text-bimage"}>BACKGROUND SECTION</div>
@@ -438,18 +438,18 @@ export default function Home() {
                 <div className={"flex  pl-5 pr-5 pb-2 rounded-full pt-2 justify-center  bg-blacck  mt-5 text-white"}>
 
                     <div className={"flex items-center bg-black rounded-full p-2"}>
-                        <div><Image className={"w-12 h-12"} src="/bookp.png" width={50} height={10}/></div>
+                        <div><Image alt={"g"} className={"w-12 h-12"} src="/bookp.png" width={50} height={10}/></div>
                         <div className={"flex-grow text-center"}>
                             <span className={"text-white"}>Education</span>
                         </div>
                     </div>
                     <div className={"flex ml-5 items-center"}>
-                        <Image className={"w-8 h-8"} src="/medal.png" width={80} height={20}/>
+                        <Image alt={"g"} className={"w-8 h-8"} src="/medal.png" width={80} height={20}/>
                         <div className={"text-ctext"}>Awards</div>
 
                     </div>
                     <div className={"flex ml-5 items-center"}>
-                        <Image className={"w-8 h-8"} src="/clear-night.png" width={80} height={20}/>
+                        <Image alt={"g"} className={"w-8 h-8"} src="/clear-night.png" width={80} height={20}/>
                         <div className={"text-ctext"}>Career</div>
 
                     </div>
@@ -459,7 +459,7 @@ export default function Home() {
             <div className={"flex justify-center"}>
                 <div className={"flex flex-col gap-10 justify-center mt-5"}>
                     <div className={"bg-blacck border-blacck rounded-2xl flex w-96 items-top border p-3 "}>
-                        <Image className={"w-12 h-12"} src="/book.png" width={80} height={20}/>
+                        <Image alt={"g"} className={"w-12 h-12"} src="/book.png" width={80} height={20}/>
                         <div>
                             <div className={"text-white ml-2 text-lg"}>Master of Arts in Product Design</div>
                             <div className={" w-96 text-ctext ml-2 text-base"}>Rhode Island School of Design
@@ -469,7 +469,7 @@ export default function Home() {
 
                     </div>
                     <div className={"bg-blacck border-blacck rounded-2xl flex w-96 items-top border p-3 "}>
-                        <Image className={"w-12 h-12"} src="/book.png" width={80} height={20}/>
+                        <Image  alt={"g"} className={"w-12 h-12"} src="/book.png" width={80} height={20}/>
                         <div>
                             <div className={"text-white ml-2 text-lg"}>Interaction Design Certification</div>
                             <div className={" w-96 text-ctext ml-2 text-base"}>Nielsen Norman Group
@@ -479,7 +479,7 @@ export default function Home() {
 
                     </div>
                     <div className={"bg-blacck border-blacck rounded-2xl flex w-96 items-top border p-3 "}>
-                        <Image className={"w-12 h-12"} src="/book.png" width={80} height={20}/>
+                        <Image alt={"g"} className={"w-12 h-12"} src="/book.png" width={80} height={20}/>
                         <div>
                             <div className={"text-white ml-2 text-lg"}>Bachelor of Science in Industry</div>
                             <div className={" w-96 text-ctext ml-2 text-base"}>Pratt Institute
@@ -495,7 +495,7 @@ export default function Home() {
 
             <div className={"flex justify-center mt-20"}>
                 <Image src="/educircle.png" width={70}
-                       height={50}/>
+                       alt={"g"}     height={50}/>
             </div>
             <div className={" mt-5 flex justify-center text-bimage"}>BLOG SECTION</div>
             <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Články & Publikace
@@ -506,9 +506,9 @@ export default function Home() {
                 <div className={" rounded-2xl w-auto flex items-center border p-10"}>
                     <div>
                         <Image className={"w-full"} src="/articleimg.png" width={70}
-                               height={50}/>
+                               alt={"g"}      height={50}/>
                         <div className={"text-white w-96 m-2 text-2xl"}>The Power of Prototyping in UI Design</div>
-                        <div className={" flex items-center  text-ctext m-2 text-lg"}><Image className={"mr-5"}
+                        <div className={" flex items-center  text-ctext m-2 text-lg"}><Image alt={"g"} className={"mr-5"}
                                                                                              src="/calendar.png"
                                                                                              width={40}
                                                                                              height={50}/>March 11,2023
@@ -520,9 +520,9 @@ export default function Home() {
                 <div className={" rounded-2xl flex w-auto items-center border p-10 "}>
                     <div>
                         <Image className={"w-full"} src="/articleimg.png" width={70}
-                               height={50}/>
+                               alt={"g"}    height={50}/>
                         <div className={"text-white w-96 m-2 text-2xl"}>Exploring the Art of Typography</div>
-                        <div className={" flex items-center  text-ctext m-2 text-lg"}><Image className={"mr-5"}
+                        <div className={" flex items-center  text-ctext m-2 text-lg"}><Image alt={"g"} className={"mr-5"}
                                                                                              src="/calendar.png"
                                                                                              width={40}
                                                                                              height={50}/>March 11,2023
@@ -540,7 +540,7 @@ export default function Home() {
             </div>
 
             <div className={"flex justify-center mt-20"}>
-                <Image src="/qcircle.png" width={70}
+                <Image alt={"g"} src="/qcircle.png" width={70}
                        height={50}/>
             </div>
             <div className={" mt-5 flex justify-center text-bimage"}>F.A.Q. SECTION</div>
@@ -552,31 +552,31 @@ export default function Home() {
                     <div
                         className={"h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex"}>
                         <div>How can I contact Wei Chen?</div>
-                        <Image src="/player.png" width={30} height={50}/>
+                        <Image alt={"g"} src="/player.png" width={30} height={50}/>
                     </div>
 
                     <div
                         className={" h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex "}>
                         <div>What is Wei Chen's design process?</div>
-                        <Image src="/player.png" width={30} height={50}/>
+                        <Image alt={"g"} src="/player.png" width={30} height={50}/>
 
                     </div>
                     <div
                         className={" h-14 p-3 border-bimage border border-solid rounded-2xl text-white items-center justify-between flex "}>
                         <div>What design services does Wei Chen offer?</div>
-                        <Image src="/player.png" width={30} height={50}/>
+                        <Image alt={"g"} src="/player.png" width={30} height={50}/>
 
                     </div>
                     <div
                         className={"h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex "}>
                         <div>What is Wei Chen's pricing structure?</div>
-                        <Image src="/player.png" width={30} height={50}/>
+                        <Image alt={"g"} src="/player.png" width={30} height={50}/>
 
                     </div>
                     <div
                         className={" h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex "}>
                         <div>Does Wei Chen offer revisions?</div>
-                        <Image src="/player.png" width={30}
+                        <Image alt={"g"} src="/player.png" width={30}
                                height={50}/>
 
                     </div>
@@ -590,11 +590,11 @@ export default function Home() {
                     <div
                         className={" w-full text-white items-center mt-10 mb-10 justify-between flex "}>
                         <div className={"flex items-center "}>
-                            <div className={" ml-20 p-2 "}><Image src="/socialr.png" width={60} height={60}/></div>
+                            <div className={" ml-20 p-2 "}><Image alt={"g"} src="/socialr.png" width={60} height={60}/></div>
                             <div className={"p-2 ml-10  text-4xl flex text-center"}>Chcete spolupracovat ?</div>
 
                         </div>
-                        <div className={"p-2 mr-20 text-2xl rounded-full bg-bbutton p-4"}>patri.moravec@email.cz</div>
+                        <div className={" mr-20 text-2xl rounded-full bg-bbutton p-4"}>patri.moravec@email.cz</div>
                     </div>
                     <div
                         className={"  bg-blacck w-full border-4 border-blacck rounded-b-2xl flex justify-center text-ctext"}>
@@ -609,14 +609,14 @@ export default function Home() {
                 <div
                     className={" text-white flex items-center bg-black border border-bimage rounded-full text-sm pb-2 pt-2 pr-4 pl-4"}>
                     <Image
-                        src="/coffee.png" width={30} height={60}/>Buy me a coffee
+                        src="/coffee.png" width={30} height={60} alt={"g"}/>Buy me a coffee
                 </div>
 
 
             </div>
             <div
                 className={" p-2 bg-black  text-white rounded-xl w-40 pl-1 flex fixed bottom-4 right-6 shadow-md"}>
-                <Image
+                <Image alt={"g"}
                     src="/framerr.png" width={20} height={60}/> Made in framer
             </div>
         </div>
