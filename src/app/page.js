@@ -1,113 +1,624 @@
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    return (
+        <div className={" font-Inter, sans-serif bg-bblack"}>
+            <div className={"fixed w-screen flex justify-evenly items-center bg-bblack"}>
+                <div className={"flex justify-evenly p-5"}>
+                    <div>
+                        <span className={"text-2xl text-violet-800"}>.</span>
+                        <span className={"text-2xl text-white"}>ruby</span>
+                        <button className={"ml-10 text-ctext bg-blacck rounded-xl p-2 shadow-md"}>Portfolio</button>
+                    </div>
+                </div>
+                <div className={"flex gap-10 mr-5 text-white"}>
+                    <button className={"p-3 rounded-3xl bg-blacck shadow-md"}>home.</button>
+                    <button className={"p-3 rounded-3xl bg-blacck shadow-md"}>about me.</button>
+                    <button className={"p-3 rounded-3xl bg-blacck shadow-md"}>works.</button>
+                    <button className={"p-3 rounded-3xl bg-blacck shadow-md"}>blog.</button>
+                    <button className={"p-3 rounded-3xl bg-blacck shadow-md"}>contact.</button>
+                </div>
+            </div>
+
+            <div className={"pt-28 flex justify-center text-white p-2 gap-10 "}>
+                <div>
+                    <div
+                        className={" w-96 flex border-solid border-2 border-blacck rounded-3xl p-5 shadow-md flex-col bg-blacck "}>
+                        <div className={"items-center flex justify-between"}>
+
+                            <div><Image className={"bg-bimage rounded-full"} src="/foto.png" width={70} height={70}/>
+                            </div>
+                            <div><Image src="/arrow.png" width={50} height={50}/></div>
+                        </div>
+
+                        <div className={"font-Inter, sans-serif text-white  text-5xl my-5"}>A Portfolio Brimming with
+                            Innovation
+                        </div>
+                        <div className={"font-Inter, sans-serif text-lg text-bimage my-3"}>Patrik Moravec Freelancer
+                        </div>
+                    </div>
+
+                </div>
+                <div className={"w-96 flex border-solid    rounded-3xl flex-col p-2 shadow-md"}>
+                    <div
+                        className={"w-96 flex-row justify-between flex border-solid border-2 bg-blacck border-blacck rounded-3xl p-4 p-2 shadow-md "}>
+                        <div>
+                            <div className={" m-2 text-bimage text-2xl"}>Title</div>
+                            <div className={" m-2 text-3xl"}>product Designer</div>
+                        </div>
+                        <Image src="/star.png" width={70} height={20}/>
+
+
+                    </div>
+                    <div className={"flex flex-row w-96 "}>
+                        <div
+                            className={" bg-blacck border-solid border-2 border-blacck rounded-3xl p-4 m-2 shadow-md"}>
+                            <Image src="/twitter.png" width={50} height={60}/>
+                        </div>
+                        <div
+                            className={" bg-blacck border-solid border-2 border-blacck rounded-3xl p-4 m-2 shadow-md"}>
+                            <Image src="/instagram.png" width={50} height={50}/>
+                        </div>
+                        <div
+                            className={" bg-blacck border-solid border-2 border-blacck rounded-3xl p-4 m-2 shadow-md"}>
+                            <Image src="/www.png" width={50} height={50}/>
+                        </div>
+                        <div
+                            className={" bg-blacck border-solid border-2 border-blacck rounded-3xl p-4 m-2 shadow-md"}>
+                            <Image src="/be.png" width={50} height={50}/>
+                        </div>
+
+                    </div>
+
+                    <div
+                        className={"w-96 flex-row justify-between flex border-solid border-2 bg-blacck border-blacck rounded-3xl p-4 p-2 shadow-md "}>
+                        <div>
+                            <div className={" m-2 text-bimage text-2xl"}>Sídlo</div>
+                            <div className={" m-2 text-3xl"}>Praue,CZ</div>
+                        </div>
+                        <Image src="/worldww.png" width={70} height={50}/>
+
+
+                    </div>
+                </div>
+
+
+                <div
+                    className={" w-96 flex gap-10 items-center justify-center flex-col border-solid border-2 bg-blacck border-blacck rounded-3xl p-2 shadow-md"}>
+                    <div><Image src="/socialr.png" width={60} height={60}/></div>
+                    <div className={"text-4xl flex text-center"}>Chcete spolupracovat ?</div>
+                    <div className={" text-2xl rounded-full bg-bbutton p-4"}>patri.moravec@email.cz</div>
+
+                </div>
+
+
+            </div>
+            <div className={"text-white flex justify-center"}><Image className={"pt-8"} src="/circlestar.png"
+                                                                     width={105} height={56}/></div>
+            <div className={"text-bimage flex justify-center text-xl"}>O mně sekce</div>
+            <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Kdo je kreativní
+                mysl?
+            </div>
+
+
+            <div className={"flex justify-center"}>
+                <div className={"w-80 rounded-2xl bg-blacck text-center text-textpimg font-Caveat py-5"}>
+                    <div className={"px-5"}><Image className={"bg-bblack rounded-2xl pl-10 pr-10"} src="/emoji.png"
+                                                   width={300} height={100}/></div>
+                    <div className={"pt-2 text-xl"}>Odvaha redefinovat hranice :)</div>
+                </div>
+                <div className={" w-80 pl-10"}>
+                    <div className={"text-white text-2xl pb-2"}>Patrik Moravec</div>
+                    <div className={"text-ctext text-lg"}>I'm Wei Chen, a passionate and experienced product designer,
+                        coffee lover, art enthusiast based in Manhattan, NY. With over 7 years of expertise in the
+                        field, I have dedicated myself to creating exceptional user experiences that blend functionality
+                        and aesthetics seamlessly.
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div className={" mt-10 text-white flex justify-center"}><Image className={"pt-8"} src="/brickimg.png"
+                                                                            width={80} height={56}/></div>
+            <div className={"text-bimage flex justify-center text-xl"}>Portfolio Sekce</div>
+            <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Ukázka Produktového
+                Designu
+            </div>
+
+            <div className={"flex justify-center flex-wrap gap-20"}>
+                <div
+                    className={" bg-blacck felx-wrap max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl shadow-md"}>
+                    <div className={"flex justify-between items-center"}>
+                        <div>
+                            <div className={"text-white m-2 text-2xl"}>Haze Template</div>
+                            <div className={"text-ctext m-2 text-lg"}>SaaS Template for Haze</div>
+                        </div>
+                        <Image src="/arrow.png" width={70} height={50}/>
+                    </div>
+                    <div className={"flex justify-center text-white"}>
+                        <div className={"m-2"}><Image className={"rounded-2xl"} src="/haze.png" width={500}
+                                                      height={60}/></div>
+
+                    </div>
+                </div>
+
+
+                <div
+                    className={" bg-blacck max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl p-4 p-2 shadow-md"}>
+                    <div className={"flex justify-between items-center"}>
+                        <div>
+                            <div className={"text-white m-2 text-2xl"}>Members Template</div>
+                            <div className={"text-ctext m-2 text-lg"}>Landing Page for Members</div>
+                        </div>
+                        <Image src="/arrow.png" width={70} height={50}/>
+                    </div>
+                    <div className={"flex justify-center text-white"}>
+                        <div className={"m-2"}><Image className={"rounded-2xl"} src="/member.png" width={500}
+                                                      height={60}/></div>
+
+                    </div>
+                </div>
+
+                <div
+                    className={" bg-blacck max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl p-4 p-2 shadow-md"}>
+                    <div className={"flex justify-between items-center"}>
+                        <div>
+                            <div className={"text-white m-2 text-2xl"}>Talentswide HR</div>
+                            <div className={"text-ctext m-2 text-lg"}>HR Website for Talentswide</div>
+                        </div>
+                        <Image src="/arrow.png" width={70} height={50}/>
+                    </div>
+                    <div className={"flex justify-center text-white"}>
+                        <div className={"m-2"}><Image className={"rounded-2xl"} src="/talenthr.png" width={500}
+                                                      height={60}/></div>
+
+                    </div>
+                </div>
+                <div
+                    className={" bg-blacck max-w-max p-5 flex-col justify-between flex border-solid border-2 border-black rounded-3xl p-4 p-2 shadow-md"}>
+                    <div className={"flex justify-between items-center"}>
+                        <div>
+                            <div className={"text-white m-2 text-2xl"}>Moxa Template</div>
+                            <div className={"text-ctext m-2 text-lg"}>portfolio Design for Moxa</div>
+                        </div>
+                        <Image src="/arrow.png" width={70} height={50}/>
+                    </div>
+                    <div className={"flex justify-center text-white"}>
+                        <div className={"m-2"}><Image className={"rounded-2xl"} src="/moxa.png" width={500}
+                                                      height={60}/></div>
+
+                    </div>
+                </div>
+            </div>
+            <div className={"flex justify-center"}>
+                <button
+                    className={" mt-20 pl-5 pr-5 text-lg text-white rounded-full rounded-2 border border-bimage p-2"}>See
+                    All
+                </button>
+            </div>
+
+            <div className={"flex justify-center mt-20"}>
+                <div className={"flex flex-col justify-center items-center"}>
+                    <div>
+                        <Image src="/circle.png" width={50}
+                               height={60}/>
+                    </div>
+                    <div className={"text-ctext"}>TESTIMONIALS SECTION</div>
+                    <div className={"text-white text-5xl mb-10 mt-5"}>Voices of Satisfaction</div>
+                </div>
+            </div>
+
+
+            <div className={"flex justify-center flex-wrap gap-20"}>
+                <div
+                    className={" bg-blacck felx-wrap p-5 flex-col justify-between flex border-solid border-2 border-bimage rounded-3xl shadow-md"}>
+                    <div className={"text-white w-96 text-2xl"}>Wei Chen's design prowess is unmatched. His attention to
+                        detail and innovative approach have transformed our products into sleek, user-centric
+                        experiences.
+                    </div>
+                    <div className={"flex items-center"}>
+                        <Image src="/laura.png" width={70} height={50}/>
+                        <div>
+                            <div className={"text-white m-2 text-2xl"}>Laura perez</div>
+                            <div className={"text-ctext m-2 text-lg"}>Fashion Designer Phoenix</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    className={" bg-blacck felx-wrap p-5 flex-col justify-between flex border-solid border-2 border-bimage rounded-3xl shadow-md"}>
+                    <div className={"text-white w-96 text-2xl"}>Mr. Chen is a complete visionary designer. His ability
+                        to translate complex ideas into intuitive interfaces has elevated our products to new heights.
+                    </div>
+                    <div className={"flex items-center"}>
+                        <Image src="/katarzyna.png" width={70} height={50}/>
+                        <div>
+                            <div className={"text-white m-2 text-2xl"}>Katarzyna Nowak</div>
+                            <div className={"text-ctext m-2 text-lg"}>UX Designer Aurora</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div
+                    className={" bg-blacck felx-wrap p-5 flex-col justify-between flex border-solid border-2 border-bimage rounded-3xl shadow-md"}>
+                    <div className={"text-white w-96 text-2xl"}>Working with Wei has been fruitful for our company. His
+                        designs strike the perfect balance between functionality and aesthetics, impressing our clients.
+                    </div>
+                    <div className={"flex items-center"}>
+                        <Image src="/arthur.png" width={70} height={50}/>
+                        <div>
+                            <div className={"text-white m-2 text-2xl"}>Arthur Gauthier</div>
+                            <div className={"text-ctext m-2 text-lg"}>Fashion Designer Phoenix</div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div
+                    className={" bg-blacck felx-wrap p-5 flex-col justify-between flex border-solid border-2  border-bimage rounded-3xl shadow-md"}>
+                    <div className={"text-white w-96 text-2xl"}>Wei Chen's expertise as a product designer shines
+                        through in every project. His designs seamlessly integrate with the user's journey for sure.
+                    </div>
+                    <div className={"flex items-center"}>
+                        <Image src="/matthew.png" width={70} height={50}/>
+                        <div>
+                            <div className={"text-white m-2 text-2xl"}>Matthew Johnson</div>
+                            <div className={"text-ctext m-2 text-lg"}>Data Software Engineering Stripe</div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div className={"flex justify-center mt-20 text-white"}>
+                <div
+                    className={" w-4/5 flex items-center justify-center flex-col border-solid border-2 bg-black border-blacck rounded-3xl shadow-md"}>
+                    <div className={"p-2 mt-10"}><Image src="/socialr.png" width={60} height={60}/></div>
+                    <div className={"p-2 mt-10 mb-10 text-4xl flex text-center"}>Chcete spolupracovat ?</div>
+                    <div className={"p-2 mb-10 text-2xl rounded-full bg-bbutton p-4"}>patri.moravec@email.cz</div>
+                    <div
+                        className={"bg-blacck w-full border-4 border-blacck rounded-b-2xl flex justify-center text-ctext"}>
+                        SLIBUJI VÁM, ŽE ODPOVÍM DO 24 HODIN.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div className={" mt-10 text-white flex justify-center"}><Image className={"pt-8"} src="/brickimg.png"
+                                                                            width={80} height={56}/></div>
+            <div className={"text-bimage flex justify-center text-xl"}>Skill Sekce</div>
+            <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Dovendosti &
+                Zkušenost
+                Designu
+            </div>
+
+            <div className={"flex flex-wrap justify-center  gap-20"}>
+
+                <div className={" rounded-2xl w-auto flex items-center border p-10"}>
+                    <Image src="/matthew.png" width={70} height={50}/>
+                    <div>
+                        <div className={"text-white m-2 text-2xl"}>Problem Solving</div>
+                        <div className={"w-96 text-ctext m-2 text-lg"}>Innovative problem-solving and impactful
+                            solutions for
+                            a better experience.
+                        </div>
+                        <div className={"text-bimage m-2 text-lg"}>Design</div>
+                    </div>
+
+                </div>
+                <div className={" rounded-2xl flex w-auto items-center border p-10 "}>
+                    <Image src="/matthew.png" width={70} height={50}/>
+                    <div>
+                        <div className={"text-white m-2 text-2xl"}>Problem Solving</div>
+                        <div className={" w-96 text-ctext m-2 text-lg"}>Innovative problem-solving and impactful
+                            solutions for
+                            a better experience.
+                        </div>
+                        <div className={"text-bimage m-2 text-lg"}>Design</div>
+                    </div>
+                </div>
+
+                <div className={" rounded-2xl flex w-auto items-center border p-10 "}>
+                    <Image src="/matthew.png" width={70} height={50}/>
+                    <div>
+                        <div className={"text-white m-2 text-2xl"}>Problem Solving</div>
+                        <div className={" w-96 text-ctext m-2 text-lg"}>Innovative problem-solving and impactful
+                            solutions for
+                            a better experience.
+                        </div>
+                        <div className={"text-bimage m-2 text-lg"}>Design</div>
+                    </div>
+
+                </div>
+                <div className={" rounded-2xl flex w-auto items-center border p-10 "}>
+                    <Image src="/matthew.png" width={70} height={50}/>
+                    <div>
+                        <div className={"text-white m-2 text-2xl"}>Problem Solving</div>
+                        <div className={" w-96 text-ctext m-2 text-lg"}>Innovative problem-solving and impactful
+                            solutions for
+                            a better experience.
+                        </div>
+                        <div className={"text-bimage m-2 text-lg"}>Design</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div className={" mt-10 text-white flex justify-center"}><Image className={"pt-8"} src="/brickimg.png"
+                                                                            width={80} height={56}/></div>
+            <div className={"text-bimage flex justify-center text-xl"}>Tool Sekce</div>
+            <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Nástroje &
+                Software
+            </div>
+
+            <div className={"flex justify-center mt-20 text-white"}>
+
+                <div
+                    className={" pb-5 w-2/3 flex items-center justify-center flex-col border-solid border-2 bg-black border-blacck rounded-3xl shadow-md"}>
+                    <div
+                        className={"bg-blacck w-full border-4 border-blacck rounded-t-2xl flex justify-center text-ctext"}>HERE
+                        ARE THE TOOLS AND SOFTWARE I USE
+                    </div>
+                    <div className={"flex gap-20"}>
+                        <div className={"flex flex-row"}>
+                            <div>
+                                <div className={" text-6xl flex justify-center text-bimage"}>.</div>
+                                <div><Image className={"bg-blacck rounded-2xl"} src="/photoshop.png" width={70}
+                                            height={50}/></div>
+                            </div>
+
+                        </div>
+                        <div className={"flex flex-row"}>
+                            <div>
+                                <div className={" text-6xl flex justify-center text-bimage"}>.</div>
+                                <div><Image className={"bg-blacck rounded-2xl"} src="/figma.png" width={70}
+                                            height={50}/></div>
+                            </div>
+
+                        </div>
+                        <div className={"flex flex-row"}>
+                            <div>
+                                <div className={" text-6xl flex justify-center text-bimage"}>.</div>
+                                <div><Image className={"bg-blacck rounded-2xl"} src="/framer.png" width={70}
+                                            height={50}/></div>
+                            </div>
+
+                        </div>
+                        <div className={"flex flex-row"}>
+                            <div>
+                                <div className={" text-6xl flex justify-center text-bimage"}>.</div>
+                                <div><Image className={"bg-blacck rounded-2xl"} src="/slack.png" width={70}
+                                            height={50}/></div>
+                            </div>
+
+                        </div>
+                        <div className={"flex flex-row"}>
+                            <div>
+                                <div className={" text-6xl flex justify-center text-bimage"}>.</div>
+                                <div><Image className={"bg-blacck rounded-2xl"} src="/webflow.png" width={70}
+                                            height={50}/></div>
+                            </div>
+
+                        </div>
+                        <div className={"flex flex-row"}>
+                            <div>
+                                <div className={" text-6xl flex justify-center text-bimage"}>.</div>
+                                <div><Image className={"bg-blacck rounded-2xl"} src="/adobeilustrator.png" width={70}
+                                            height={50}/></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={"flex justify-center mt-5"}>
+                <div className={"flex text-center w-3/5 justify-center text-bimage"}>Explore the tools and software that
+                    enable me to craft
+                    remarkable designs,combining technology and creativity seamlessly.
+                </div>
+            </div>
+
+            <div className={"flex justify-center mt-20"}>
+                <Image src="/educircle.png" width={70}
+                       height={50}/>
+            </div>
+            <div className={" mt-5 flex justify-center text-bimage"}>BACKGROUND SECTION</div>
+            <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Edukace & Kariéra
+            </div>
+            <div className={" flex justify-center"}>
+                <div className={"flex  pl-5 pr-5 pb-2 rounded-full pt-2 justify-center  bg-blacck  mt-5 text-white"}>
+
+                    <div className={"flex items-center bg-black rounded-full p-2"}>
+                        <div><Image className={"w-12 h-12"} src="/bookp.png" width={50} height={10}/></div>
+                        <div className={"flex-grow text-center"}>
+                            <span className={"text-white"}>Education</span>
+                        </div>
+                    </div>
+                    <div className={"flex ml-5 items-center"}>
+                        <Image className={"w-8 h-8"} src="/medal.png" width={80} height={20}/>
+                        <div className={"text-ctext"}>Awards</div>
+
+                    </div>
+                    <div className={"flex ml-5 items-center"}>
+                        <Image className={"w-8 h-8"} src="/clear-night.png" width={80} height={20}/>
+                        <div className={"text-ctext"}>Career</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className={"flex justify-center"}>
+                <div className={"flex flex-col gap-10 justify-center mt-5"}>
+                    <div className={"bg-blacck border-blacck rounded-2xl flex w-96 items-top border p-3 "}>
+                        <Image className={"w-12 h-12"} src="/book.png" width={80} height={20}/>
+                        <div>
+                            <div className={"text-white ml-2 text-lg"}>Master of Arts in Product Design</div>
+                            <div className={" w-96 text-ctext ml-2 text-base"}>Rhode Island School of Design
+                            </div>
+                            <div className={"text-bimage ml-2 text-base"}>2018 - 2020</div>
+                        </div>
+
+                    </div>
+                    <div className={"bg-blacck border-blacck rounded-2xl flex w-96 items-top border p-3 "}>
+                        <Image className={"w-12 h-12"} src="/book.png" width={80} height={20}/>
+                        <div>
+                            <div className={"text-white ml-2 text-lg"}>Interaction Design Certification</div>
+                            <div className={" w-96 text-ctext ml-2 text-base"}>Nielsen Norman Group
+                            </div>
+                            <div className={"text-bimage ml-2 text-base"}>2017 - 2018</div>
+                        </div>
+
+                    </div>
+                    <div className={"bg-blacck border-blacck rounded-2xl flex w-96 items-top border p-3 "}>
+                        <Image className={"w-12 h-12"} src="/book.png" width={80} height={20}/>
+                        <div>
+                            <div className={"text-white ml-2 text-lg"}>Bachelor of Science in Industry</div>
+                            <div className={" w-96 text-ctext ml-2 text-base"}>Pratt Institute
+                            </div>
+                            <div className={"text-bimage ml-2 text-base"}>2013 - 2017</div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div className={"flex justify-center mt-20"}>
+                <Image src="/educircle.png" width={70}
+                       height={50}/>
+            </div>
+            <div className={" mt-5 flex justify-center text-bimage"}>BLOG SECTION</div>
+            <div className={" font-Inter, sans-serif text-4xl text-white justify-center flex p-5"}>Články & Publikace
+            </div>
+
+            <div className={"flex flex-wrap justify-center  gap-20"}>
+
+                <div className={" rounded-2xl w-auto flex items-center border p-10"}>
+                    <div>
+                        <Image className={"w-full"} src="/articleimg.png" width={70}
+                               height={50}/>
+                        <div className={"text-white w-96 m-2 text-2xl"}>The Power of Prototyping in UI Design</div>
+                        <div className={" flex items-center  text-ctext m-2 text-lg"}><Image className={"mr-5"}
+                                                                                             src="/calendar.png"
+                                                                                             width={40}
+                                                                                             height={50}/>March 11,2023
+
+                        </div>
+                    </div>
+
+                </div>
+                <div className={" rounded-2xl flex w-auto items-center border p-10 "}>
+                    <div>
+                        <Image className={"w-full"} src="/articleimg.png" width={70}
+                               height={50}/>
+                        <div className={"text-white w-96 m-2 text-2xl"}>Exploring the Art of Typography</div>
+                        <div className={" flex items-center  text-ctext m-2 text-lg"}><Image className={"mr-5"}
+                                                                                             src="/calendar.png"
+                                                                                             width={40}
+                                                                                             height={50}/>March 11,2023
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className={"flex justify-center"}>
+                <button className={" mt-20 text-lg text-white rounded-full rounded-2 border-bimage border p-2"}>See
+                    All
+                </button>
+            </div>
+
+            <div className={"flex justify-center mt-20"}>
+                <Image src="/qcircle.png" width={70}
+                       height={50}/>
+            </div>
+            <div className={" mt-5 flex justify-center text-bimage"}>F.A.Q. SECTION</div>
+            <div className={" font-Inter, sans-serif text-5xl text-white justify-center flex p-5"}>Frequently Asked
+                Questions
+            </div>
+            <div className={"flex justify-center"}>
+                <div className={"flex w-4/12 flex-col gap-10 justify-center"}>
+                    <div
+                        className={"h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex"}>
+                        <div>How can I contact Wei Chen?</div>
+                        <Image src="/player.png" width={30} height={50}/>
+                    </div>
+
+                    <div
+                        className={" h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex "}>
+                        <div>What is Wei Chen's design process?</div>
+                        <Image src="/player.png" width={30} height={50}/>
+
+                    </div>
+                    <div
+                        className={" h-14 p-3 border-bimage border border-solid rounded-2xl text-white items-center justify-between flex "}>
+                        <div>What design services does Wei Chen offer?</div>
+                        <Image src="/player.png" width={30} height={50}/>
+
+                    </div>
+                    <div
+                        className={"h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex "}>
+                        <div>What is Wei Chen's pricing structure?</div>
+                        <Image src="/player.png" width={30} height={50}/>
+
+                    </div>
+                    <div
+                        className={" h-14 p-3 border border-bimage border-solid rounded-2xl text-white items-center justify-between flex "}>
+                        <div>Does Wei Chen offer revisions?</div>
+                        <Image src="/player.png" width={30}
+                               height={50}/>
+
+                    </div>
+                </div>
+
+            </div>
+            <div className={"grid place-items-center mt-20 text-white"}>
+                <div
+                    className={"w-4/5  flex flex-col border-solid border-2 items-center bg-black border-blacck rounded-3xl shadow-md"}>
+
+                    <div
+                        className={" w-full text-white items-center mt-10 mb-10 justify-between flex "}>
+                        <div className={"flex items-center "}>
+                            <div className={" ml-20 p-2 "}><Image src="/socialr.png" width={60} height={60}/></div>
+                            <div className={"p-2 ml-10  text-4xl flex text-center"}>Chcete spolupracovat ?</div>
+
+                        </div>
+                        <div className={"p-2 mr-20 text-2xl rounded-full bg-bbutton p-4"}>patri.moravec@email.cz</div>
+                    </div>
+                    <div
+                        className={"  bg-blacck w-full border-4 border-blacck rounded-b-2xl flex justify-center text-ctext"}>
+                        SLIBUJI VÁM, ŽE ODPOVÍM DO 24 HODIN.
+                    </div>
+                </div>
+            </div>
+
+            <div className={"flex  justify-evenly items-center mt-10  "}>
+
+                <div className={"text-bimage"}>© 2023 Ruby Template. All rights reserved.</div>
+                <div
+                    className={" text-white flex items-center bg-black border border-bimage rounded-full text-sm pb-2 pt-2 pr-4 pl-4"}>
+                    <Image
+                        src="/coffee.png" width={30} height={60}/>Buy me a coffee
+                </div>
+
+            </div>
+            <div
+                className={" p-2 bg-black  text-white rounded-xl w-40 pl-1 flex fixed bottom-4 right-6 shadow-md"}>
+                <Image
+                    src="/framerr.png" width={20} height={60}/> Made in framer
+            </div>
         </div>
-      </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    );
 }
